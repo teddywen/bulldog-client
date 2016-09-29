@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnysdk": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.starcatcher",
+  "startScene": "0b100fde-48c2-4304-ab97-eb02bd2fe30d",
+  "title": "starcatcher",
+  "webOrientation": "auto"
+}

@@ -1,0 +1,311 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "game",
+    "scene": {
+      "__id__": 1
+    },
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Scene",
+    "_anchorPoint": {
+      "__type__": "cc.Vec2"
+    },
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "autoReleaseAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_parent": {
+      "__id__": 1
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 960,
+      "height": 640
+    },
+    "_children": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      }
+    ],
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 480,
+      "y": 320
+    },
+    "_id": "a8f902xrMlP0bgzwWpDPDmp",
+    "_components": [
+      {
+        "__type__": "cc.Canvas",
+        "node": {
+          "__id__": 2
+        },
+        "_fitWidth": true
+      },
+      {
+        "__type__": "70e7cfKOapIZrArq2WAmYZK",
+        "node": {
+          "__id__": 2
+        },
+        "score": {
+          "__id__": 6
+        }
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "background",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1360,
+      "height": 760
+    },
+    "_components": [
+      {
+        "__type__": "cc.Sprite",
+        "node": {
+          "__id__": 3
+        },
+        "_spriteFrame": {
+          "__uuid__": "11b8244c-b6d9-4577-b37e-627b95227848"
+        },
+        "_sizeMode": 0
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "ground",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1350,
+      "height": 250
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "y": -250
+    },
+    "_components": [
+      {
+        "__type__": "cc.Sprite",
+        "node": {
+          "__id__": 4
+        },
+        "_spriteFrame": {
+          "__uuid__": "426627d4-14ef-471b-afee-9c1658251aac"
+        },
+        "_sizeMode": 0
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "score",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 351.39,
+      "height": 69.44
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "y": 180
+    },
+    "_components": [
+      {
+        "__id__": 6
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Label",
+    "node": {
+      "__id__": 5
+    },
+    "_useOriginalSize": false,
+    "_actualFontSize": 50,
+    "_fontSize": 50,
+    "_lineHeight": 50,
+    "_N$file": {
+      "__uuid__": "977cfe9b-21c7-498e-b060-541800511a8b"
+    },
+    "_isSystemFontUsed": false,
+    "_N$string": "ready to record",
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "record",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 188.75,
+      "height": 56.25
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": -350,
+      "y": -45
+    },
+    "_components": [
+      {
+        "__type__": "cc.Label",
+        "node": {
+          "__id__": 7
+        },
+        "_useOriginalSize": false,
+        "_actualFontSize": 45,
+        "_fontSize": 45,
+        "_lineHeight": 45,
+        "_N$file": {
+          "__uuid__": "977cfe9b-21c7-498e-b060-541800511a8b"
+        },
+        "_isSystemFontUsed": false,
+        "_N$string": "press me",
+        "_N$horizontalAlign": 1,
+        "_N$verticalAlign": 1
+      },
+      {
+        "__type__": "4d95dgN425MaooPSTSYANUP",
+        "node": {
+          "__id__": 7
+        },
+        "game": {
+          "__id__": 2
+        },
+        "score": {
+          "__id__": 6
+        }
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "fetch",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 257.5,
+      "height": 56.25
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "y": -45
+    },
+    "_components": [
+      {
+        "__type__": "cc.Label",
+        "node": {
+          "__id__": 8
+        },
+        "_useOriginalSize": false,
+        "_actualFontSize": 45,
+        "_fontSize": 45,
+        "_lineHeight": 45,
+        "_N$file": {
+          "__uuid__": "977cfe9b-21c7-498e-b060-541800511a8b"
+        },
+        "_isSystemFontUsed": false,
+        "_N$string": "fetch record",
+        "_N$horizontalAlign": 1,
+        "_N$verticalAlign": 1
+      },
+      {
+        "__type__": "30bcc93/wVD66kIZA2VbQ7j",
+        "node": {
+          "__id__": 8
+        },
+        "game": {
+          "__id__": 2
+        },
+        "score": {
+          "__id__": 6
+        }
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "play",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 166.25,
+      "height": 56.25
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 330,
+      "y": -45
+    },
+    "_components": [
+      {
+        "__type__": "cc.Label",
+        "node": {
+          "__id__": 9
+        },
+        "_useOriginalSize": false,
+        "_actualFontSize": 45,
+        "_fontSize": 45,
+        "_lineHeight": 45,
+        "_N$file": {
+          "__uuid__": "977cfe9b-21c7-498e-b060-541800511a8b"
+        },
+        "_isSystemFontUsed": false,
+        "_N$string": "play me",
+        "_N$horizontalAlign": 1,
+        "_N$verticalAlign": 1
+      },
+      {
+        "__type__": "30a22LKGYJDZo7I+eHmjeX7",
+        "node": {
+          "__id__": 9
+        },
+        "game": {
+          "__id__": 2
+        },
+        "score": {
+          "__id__": 6
+        }
+      }
+    ]
+  }
+]

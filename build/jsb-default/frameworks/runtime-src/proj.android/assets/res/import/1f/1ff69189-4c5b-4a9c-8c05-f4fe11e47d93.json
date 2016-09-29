@@ -1,0 +1,43 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "star",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "star",
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 60,
+      "height": 66
+    },
+    "_components": [
+      {
+        "__type__": "cc.Sprite",
+        "node": {
+          "__id__": 1
+        },
+        "_spriteFrame": {
+          "__uuid__": "8f8ba54f-70f6-4ca1-86d9-dddbd85e769d"
+        }
+      },
+      {
+        "__type__": "ad440Vz3yRExbW1gpUDZkcK",
+        "node": {
+          "__id__": 1
+        },
+        "pickRadius": 60
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "fileId": "d0e84qBsclNG4SVkdcIGr/u"
+    }
+  }
+]
