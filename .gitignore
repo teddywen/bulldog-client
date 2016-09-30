@@ -85,6 +85,7 @@ build/jsb-default/src/settings.js
 build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
 build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
 build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/res/resources-debug-androidTest.ap_
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/libcocos2dx.iml
 build/jsb-default/frameworks/runtime-src/proj.android-studio/proj.android-studio.iml
 build/jsb-default/frameworks/runtime-src/proj.android-studio/app/starcatcher.iml
 
