@@ -59,7 +59,7 @@ quick_gen_project_*_autogen.sh.meta
 .idea/
 
 #/////////////////////////////////////////////////////////////////////////////
-# some creator gen
+# some creator compile gen
 #/////////////////////////////////////////////////////////////////////////////
 build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugAssets/merger.xml
 build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
@@ -78,3 +78,14 @@ build/jsb-default/frameworks/runtime-src/proj.android-studio/app/assets/src/sett
 build/jsb-default/simulator/android/starcatcher-debug.apk
 build/jsb-default/src/project.dev.js
 build/jsb-default/src/settings.js
+
+#/////////////////////////////////////////////////////////////////////////////
+# android studio compile gen
+#/////////////////////////////////////////////////////////////////////////////
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/res/resources-debug-androidTest.ap_
+build/jsb-default/frameworks/runtime-src/proj.android-studio/proj.android-studio.iml
+build/jsb-default/frameworks/runtime-src/proj.android-studio/app/starcatcher.iml
+
+
