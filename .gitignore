@@ -57,3 +57,24 @@ quick_gen_project_*_autogen.sh.meta
 # webstorm files
 #/////////////////////////////////////////////////////////////////////////////
 .idea/
+
+#/////////////////////////////////////////////////////////////////////////////
+# some creator gen
+#/////////////////////////////////////////////////////////////////////////////
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugAssets/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeDebugShaders/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/packageDebugResources/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/intermediates/incremental/packageReleaseResources/merger.xml
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/outputs/aar/libcocos2dx-debug.aar
+build/jsb-default/frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/outputs/aar/libcocos2dx-release.aar
+build/jsb-default/frameworks/runtime-src/proj.android-studio/app/assets/src/project.dev.js
+build/jsb-default/frameworks/runtime-src/proj.android-studio/app/assets/src/settings.js
+build/jsb-default/simulator/android/starcatcher-debug.apk
+build/jsb-default/src/project.dev.js
+build/jsb-default/src/settings.js
